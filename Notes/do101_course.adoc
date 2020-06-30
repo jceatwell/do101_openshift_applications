@@ -30,3 +30,13 @@ npm install
 DEBUG=myapp:* npm start
 ----
 
+=== 1.2 Setting up VSCode
+
+Can install on Centos / RHEL using `dnf install vscode`
+
+=== 1.3 Git in VSCode
+
+Can initialize private repo in vscode. Can use repo on left status bar to add to Github (owned my M/S .. how convenient)
+Cmd + Shift + P -> Check "git:" commands for staging, cloning, etc.
+
+=== 1.4 
