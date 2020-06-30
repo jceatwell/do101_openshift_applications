@@ -1,0 +1,32 @@
+:revealjs_theme: moon
+:revealjs_controlsBackArrows: faded
+= asciidoc slides extension
+
+https://rol.redhat.com/rol/app/courses/do101-4.2/pages/ch01
+
+== Introduction
+
+Course Objectives:
+* Demonstrate basic skill to deploy, update, scale and troubleshoot applications on Openshift
+* Demonstrate good understanding of benifits of using Openshift and how to contribute to applications deployed on Openshift
+ 
+== 1. Configuring a Cloud Application Developer Environment
+
+* VSCode + NodeJS + Express used in course
+
+Ref:
+- https://en.wikipedia.org/wiki/Integrated_development_environment
+- https://code.visualstudio.com/docs/editor/multi-root-workspaces
+- https://code.visualstudio.com/docs/editor/integrated-terminal
+- https://nodejs.org/api/modules.html#modules_modules
+
+=== 1.1 Enode Express Generator
+
+[source, shell]
+----
+npm install --save express-generator
+npx express-generator
+npm install
+DEBUG=myapp:* npm start
+----
+
